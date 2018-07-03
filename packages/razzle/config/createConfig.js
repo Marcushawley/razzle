@@ -76,7 +76,7 @@ module.exports = (
   const IS_WEB = target === 'web';
   const IS_PROD = env === 'prod';
   const IS_DEV = env === 'dev';
-  process.env.NODE_ENV = IS_PROD ? 'production' : 'development';
+  // process.env.NODE_ENV = IS_PROD ? 'production' : 'development';
 
   const dotenv = getClientEnv(target, { clearConsole, host, port });
 
